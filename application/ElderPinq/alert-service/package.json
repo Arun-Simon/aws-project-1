@@ -1,0 +1,14 @@
+{
+  "name": "alert-service",
+  "version": "1.0.0",
+  "description": "Alert service for ElderPing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
